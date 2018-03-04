@@ -1,0 +1,6 @@
+*.log
+*-stamp
+*.substvars
+*.debhelper
+files
+screen-resolution-extra-stub

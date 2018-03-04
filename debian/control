@@ -1,0 +1,17 @@
+Source: screen-resolution-extra-stub
+Section: misc
+Priority: optional
+Maintainer: Baltnet Communications <info@baltnet.ee>
+Build-Depends: debhelper (>=10)
+Standards-Version: 3.9.6
+Homepage: http://www.baltnet.ee
+Vcs-Git: git@github.com:baltnet-communications/screen-resolution-extra-stub.git
+Vcs-Browser: https://github.com/baltnet-communications/screen-resolution-extra-stub
+
+Package: screen-resolution-extra-stub
+Architecture: amd64
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Provides: screen-resolution-extra
+Conflicts: screen-resolution-extra
+Replaces: screen-resolution-extra
+Description: Stub package to satisfy nVidia driver greed

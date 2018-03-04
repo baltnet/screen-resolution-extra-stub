@@ -1,0 +1,11 @@
+#!/usr/bin/make -f
+
+VER=$(shell dpkg-parsechangelog --show-field Version)
+REL=$(shell lsb_release -rsu || lsb_release -rs)
+CDN=$(shell lsb_release -csu || lsb_release -cs)
+
+%:
+	dh $@
+
+override_dh_gencontrol:
+	dh_gencontrol -- -v$(VER)+$(REL)-$(CDN)
