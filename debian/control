@@ -1,4 +1,4 @@
-Source: screen-resolution-extra-stub
+Source: screen-resolution-extra
 Section: misc
 Priority: optional
 Maintainer: Baltnet Communications <info@baltnet.ee>
@@ -8,7 +8,7 @@ Homepage: http://www.baltnet.ee
 Vcs-Git: git@github.com:baltnet-communications/screen-resolution-extra-stub.git
 Vcs-Browser: https://github.com/baltnet-communications/screen-resolution-extra-stub
 
-Package: screen-resolution-extra-stub
+Package: screen-resolution-extra
 Architecture: amd64
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Provides: screen-resolution-extra

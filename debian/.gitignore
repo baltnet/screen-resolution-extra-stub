@@ -3,4 +3,4 @@
 *.substvars
 *.debhelper
 files
-screen-resolution-extra-stub
+screen-resolution-extra
